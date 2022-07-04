@@ -1,0 +1,78 @@
+@import url('https://fonts.googleapis.com/css2?family=Rubik:ital,wght@0,300;0,400;0,500;1,300;1,400&display=swap');
+
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+body {
+  height: 100vh;
+  font-family: 'Rubik', sans-serif;
+}
+
+h2 {
+  text-align: center;
+  padding-top: 20px;
+}
+
+.red-alert {
+  background-color: rgb(252, 176, 176);
+  padding: 10px 30px;
+  color: rgb(172, 7, 7);
+  border-radius: 5px;
+  margin: 20px;
+  display: none;
+}
+
+.alert {
+  display: inline-block;
+}
+
+.form-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  padding: 10px;
+}
+
+#num,
+#numItem {
+  padding: 8px;
+  border: 2px rgb(197, 127, 35) solid;
+  border-radius: 10px;
+}
+
+#num:focus,
+#numItem:focus {
+  border-color: rgba(229, 103, 23, 0.8);
+  box-shadow: 0 1px 1px rgba(229, 103, 23, 0.075) inset, 0 0 8px rgba(229, 103, 23, 0.6);
+  outline: 0 none;
+}
+
+button {
+  padding: 10px 15px;
+  background-color: rgb(197, 127, 35);
+  color: aliceblue;
+  border: none;
+  border-radius: 5px;
+  font-size: 16px;
+  cursor: pointer;
+  margin-right: 15px;
+  margin-top: 10px;
+}
+
+button:hover {
+  background-color: rgb(179, 106, 3);
+  transform: scale(1.1);
+  transition: all 0.5s ease-in;
+}
+
+.result h3 {
+  padding: 12px;
+}
+
+.result li {
+  padding: 3px;
+}
